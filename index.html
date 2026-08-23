@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<title>Garage Quants Leaderboard</title>
+<style>
+  body{margin:0;background:#0d1117;color:#dfe4ea;
+       font-family:'Segoe UI',Arial,sans-serif}
+  .wrap{max-width:1050px;margin:0 auto;padding:44px 24px}
+  h1{margin:0;font-size:34px;letter-spacing:.14em}
+  h1 .thin{font-weight:300;color:#8b949e}
+  .tag{color:#8b949e;margin:10px 0 4px;font-size:15px}
+  .principles{display:flex;gap:10px;flex-wrap:wrap;margin:22px 0 30px}
+  .principles span{border:1px solid #2d3748;border-radius:20px;
+       padding:5px 14px;font-size:13px;color:#9fb0c3;background:#131a24}
+  table{width:100%;border-collapse:collapse;background:#10161f;
+       box-shadow:0 2px 14px #0008;font-size:15px}
+  th{background:#1a2432;color:#c8d2de;text-align:right;padding:11px 14px;
+       font-weight:600;font-size:13px;letter-spacing:.05em}
+  th:nth-child(-n+2){text-align:left}
+  td{padding:13px 14px;border-top:1px solid #1d2634;text-align:right;
+       font-variant-numeric:tabular-nums}
+  td.rank{color:#8b949e;text-align:left;width:2.2em}
+  td.acct{text-align:left}
+  .addr{font-family:Consolas,monospace;font-size:15px}
+  .claim{display:block;font-size:12px;color:#3fb950;margin-top:3px}
+  .pos{color:#3fb950} .neg{color:#f47067} .val{font-weight:600}
+  .foot{color:#8b949e;font-size:13px;margin-top:26px;line-height:1.8}
+  .foot b{color:#c8d2de}
+</style></head><body><div class="wrap">
+  <h1>GARAGE QUANTS LEADERBOARD<span class="thin"> · solo algo traders, verified</span></h1>
+  <div class="tag">One human, one machine, every trade on the public record.
+      Nothing self-reported. Display is opt-in.</div>
+  <div class="principles">
+    <span>✓ lone individuals — one human per row</span>
+    <span>✓ algorithmic — the machine's record, verified</span>
+    <span>✓ counted from day one — no cherry-picking</span>
+    <span>✓ opt-in display · builder-dexes included</span>
+  </div>
+  <table>
+    <tr><th>#</th><th>Account</th><th>30d return</th><th>All-time PnL</th>
+        <th>Max DD</th><th>30d volume</th><th>All-time volume</th>
+        <th>Account value</th></tr>
+    
+      <tr>
+        <td class="rank">01</td>
+        <td class="acct"><span class="addr">0xe392…2957</span>
+            <span class="claim">✓ claimed · founder</span></td>
+        <td class="pos">+2.04%</td>
+        <td class="neg">−$1,878</td>
+        <td class="neg">−1892.6%</td>
+        <td>$895,564</td>
+        <td>$4,256,735</td>
+        <td class="val">$11,661</td>
+      </tr>
+  </table>
+  <div class="foot">
+    <b>1 account claimed</b> · qualification universe arrives in
+    phase two (rank shown against all qualified Hyperliquid accounts).<br>
+    Account value includes builder-dex balances (e.g. the xyz stock-perp dex)
+    — capital the exchange's own leaderboard reports as $0.00.<br>
+    Data: Hyperliquid public info API · updated 2026-08-23 22:26 UTC · prototype, phase one.
+  </div>
+</div></body></html>
